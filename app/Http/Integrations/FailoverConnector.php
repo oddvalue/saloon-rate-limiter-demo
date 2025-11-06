@@ -3,7 +3,7 @@ namespace App\Http\Integrations;
 
 use Saloon\Http\Connector;
 
-class DemoConnector extends Connector
+class FailoverConnector extends Connector
 {
     use \Saloon\RateLimitPlugin\Traits\HasRateLimits;
 
